@@ -1,0 +1,5 @@
+.btn:hover,
+.btn:focus{
+    outline:none;
+    outline-offset: 0px;
+}

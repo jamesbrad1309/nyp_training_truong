@@ -1,0 +1,26 @@
+.btn {
+  border-raidus: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: NYPFontRegular; }
+
+.btn-success {
+  font-size: 14px;
+  padding: 10px 10px; }
+
+.btn-info {
+  font-size: 14px;
+  padding: 10px 10px; }
+
+.btn-danger {
+  font-weight: bold; }
+
+a {
+  font-family: NYPFontRegular; }
+
+.breadcrumb a {
+  color: #c6c6c6; }
+
+.active a {
+  color: #031a82; }

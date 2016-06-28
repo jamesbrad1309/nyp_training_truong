@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'DIN Next LT Pro';
+}
+/*text font START*/
+
+@font-face {
+    font-family: NYPFontRegular;
+    src: url('../../font/DINNextLTPro-Regular.otf');
+
+    /* browser compatible via https://www.web-font-generator.com/ */
+    src:  /*url('../../font/browser-compatible/DINNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),*/
+          url('../../font/browser-compatible/DINNextLTPro-Regular.woff') format('woff'), 
+          url('../../font/browser-compatible/DINNextLTPro-Regular.ttf')  format('truetype'), 
+          url('../../font/browser-compatible/DINNextLTPro-Regular.svg#DINNextLTPro-Regular') format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NYPFontMedium;
+    src: url('../../font/DINNextLTPro-Medium.otf');
+
+    /* browser compatible via https://www.web-font-generator.com/ */
+    src:  /*url('../../font/browser-compatible/DINNextLTPro-Medium.eot?#iefix') format('embedded-opentype'),*/
+          url('../../font/browser-compatible/DINNextLTPro-Medium.woff') format('woff'), 
+          url('../../font/browser-compatible/DINNextLTPro-Medium.ttf')  format('truetype'), 
+          url('../../font/browser-compatible/DINNextLTPro-Medium.svg#DINNextLTPro-Regular') format('svg');
+    
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NYPFontBold;
+    src: url('../../font/DINPro-Bold.ttf');
+
+    /* browser compatible via https://www.web-font-generator.com/ */
+    src:  /*url('../../font/browser-compatible/DINPro-Bold.eot?#iefix') format('embedded-opentype'),*/
+          url('../../font/browser-compatible/DINPro-Bold.woff') format('woff'), 
+          url('../../font/browser-compatible/DINPro-Bold.ttf')  format('truetype'), 
+          url('../../font/browser-compatible/DINPro-Bold.svg#DINNextLTPro-Regular') format('svg');
+    
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NYPFontBlack;
+    src: url('../../font/DINPro-Black.ttf');
+
+    /* browser compatible via https://www.web-font-generator.com/ */
+    src:  /*url('../../font/browser-compatible/DINPro-Black.eot?#iefix') format('embedded-opentype'),*/
+          url('../../font/browser-compatible/DINPro-Black.woff') format('woff'), 
+          url('../../font/browser-compatible/DINPro-Black.ttf')  format('truetype'), 
+          url('../../font/browser-compatible/DINPro-Black.svg#DINNextLTPro-Regular') format('svg');
+    
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NYPFontLight;
+    src: url('../../font/DINPro-Light.ttf');
+
+    /* browser compatible via https://www.web-font-generator.com/ */
+    src:  /*url('../../font/browser-compatible/DINPro-Light.eot?#iefix') format('embedded-opentype'),*/
+          url('../../font/browser-compatible/DINPro-Light.woff') format('woff'), 
+          url('../../font/browser-compatible/DINPro-Light.ttf')  format('truetype'), 
+          url('../../font/browser-compatible/DINPro-Light.svg#DINNextLTPro-Regular') format('svg');
+    
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    font-family: NYPFontRegular;
+}
+/*text font END*/
