@@ -1,0 +1,30 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px; }
+
+.container {
+  margin-top: 30px; }
+
+.card {
+  border: 1px solid #c6c6c6;
+  padding: 0;
+  margin: 0 20px 20px 0; }
+  .card .content {
+    width: 55%;
+    margin: 15px 0 0 15px; }
+    .card .content h5 {
+      font-weight: bold;
+      margin-bottom: 5px; }
+    .card .content p {
+      font-size: 14px;
+      line-height: 1.2; }
+  .card .image, .card .content {
+    display: inline-block;
+    vertical-align: top; }
+  .card .btn-card {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border: none;
+    padding: 8px 20px; }
+
+/*# sourceMappingURL=style.css.map */
