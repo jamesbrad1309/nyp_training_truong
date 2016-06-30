@@ -1,12 +1,25 @@
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0px; }
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  line-height: 1; }
+
+p {
+  margin: 0; }
 
 body {
   font-family: NYPFontRegular; }
 
+a {
+  text-decoration: underline; }
+
 .btn {
   outline: 0 !important;
   outline-offset: 0; }
+
+@media screen and (max-width: 992px) {
+  .present img {
+    margin-bottom: 20px; } }
+.font16 {
+  font-size: 16px; }
 
 .container {
   margin-top: 30px; }
@@ -20,7 +33,7 @@ body {
     padding: 20px 30px 0 30px; }
     .card .content h6 {
       font-size: 18px;
-      font-family: NYPFontBold;
+      font-family: NYPFontBold, serif;
       margin-bottom: 5px; }
     .card .content p {
       font-size: 13px;
@@ -30,9 +43,24 @@ body {
     vertical-align: top; }
   .card .btn-card {
     position: absolute;
-    right: 0px;
-    bottom: 0px;
+    right: 0;
+    bottom: 0;
     border: none;
     padding: 8px 20px; }
+
+.section h2 {
+  color: #031a82; }
+.section .col-image {
+  padding-left: 0; }
+
+.present h2 {
+  margin-bottom: 20px; }
+.present img {
+  width: 100%;
+  margin-right: 15px; }
+.present .content {
+  font-size: 16px; }
+  .present .content p {
+    margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */

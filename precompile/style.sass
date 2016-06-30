@@ -1,7 +1,12 @@
 @import "components/common"
 @import "components/button"
 @import "components/font"
+@import "components/repsponsive"
 
+$title-color: #031a82
+
+.font16
+  font-size: 16px
 .container
   margin-top: 30px
 
@@ -14,7 +19,7 @@
     padding: 20px 30px 0 30px
     h6
       font-size: 18px
-      font-family: NYPFontBold
+      font-family: NYPFontBold, serif
       margin-bottom: 5px
     p
       font-size: 13px
@@ -24,8 +29,25 @@
     vertical-align: top
   .btn-card
     position: absolute
-    right: 0px
-    bottom: 0px
+    right: 0
+    bottom: 0
     border: none
     padding: 8px 20px
+
+.section
+  h2
+    color: $title-color
+  .col-image
+    padding-left: 0
+
+.present
+  h2
+    margin-bottom: 20px
+  img
+    width: 100%
+    margin-right: 15px
+  .content
+    font-size: 16px
+    p
+      margin-bottom: 30px
 
